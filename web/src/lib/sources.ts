@@ -26,6 +26,7 @@ import {
   TeamsIcon,
   SlabIcon,
   ZendeskIcon,
+  ZammadIcon,
   ZulipIcon,
   MediaWikiIcon,
   WikipediaIcon,
@@ -300,6 +301,12 @@ export const SOURCE_METADATA_MAP: SourceMap = {
     displayName: "Freshdesk",
     category: SourceCategory.CustomerSupport,
     docs: "https://docs.onyx.app/connectors/freshdesk",
+  },
+  zammad: {
+    icon: ZammadIcon,
+    displayName: "Zammad",
+    category: SourceCategory.CustomerSupport,
+    docs: "https://docs.onyx.app/connectors/zammad",
   },
   fireflies: {
     icon: FirefliesIcon,

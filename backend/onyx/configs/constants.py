@@ -161,6 +161,7 @@ class DocumentSource(str, Enum):
     GONG = "gong"
     GOOGLE_SITES = "google_sites"
     ZENDESK = "zendesk"
+    ZAMMAD = "zammad"
     LOOPIO = "loopio"
     DROPBOX = "dropbox"
     SHAREPOINT = "sharepoint"

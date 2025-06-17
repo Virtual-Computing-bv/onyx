@@ -1199,6 +1199,11 @@ For example, specifying .*-support.* as a "channel" will cause the connector to 
     values: [],
     advanced_values: [],
   },
+  zammad: {
+    description: "Configure Zammad connector",
+    values: [],
+    advanced_values: [],
+  },
   fireflies: {
     description: "Configure Fireflies connector",
     values: [],
@@ -1595,6 +1600,8 @@ export interface AsanaConfig {
 }
 
 export interface FreshdeskConfig {}
+
+export interface ZammadConfig {}
 
 export interface FirefliesConfig {}
 

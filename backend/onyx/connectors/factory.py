@@ -55,6 +55,7 @@ from onyx.connectors.teams.connector import TeamsConnector
 from onyx.connectors.web.connector import WebConnector
 from onyx.connectors.wikipedia.connector import WikipediaConnector
 from onyx.connectors.xenforo.connector import XenforoConnector
+from onyx.connectors.zammad.connector import ZammadConnector
 from onyx.connectors.zendesk.connector import ZendeskConnector
 from onyx.connectors.zulip.connector import ZulipConnector
 from onyx.db.connector import fetch_connector_by_id
@@ -97,6 +98,7 @@ def identify_connector_class(
         DocumentSource.DOCUMENT360: Document360Connector,
         DocumentSource.GONG: GongConnector,
         DocumentSource.GOOGLE_SITES: GoogleSitesConnector,
+        DocumentSource.ZAMMAD: ZammadConnector,
         DocumentSource.ZENDESK: ZendeskConnector,
         DocumentSource.LOOPIO: LoopioConnector,
         DocumentSource.DROPBOX: DropboxConnector,

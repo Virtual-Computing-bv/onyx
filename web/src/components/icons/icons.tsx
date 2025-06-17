@@ -61,6 +61,7 @@ import hubSpotIcon from "../../../public/HubSpot.png";
 import document360Icon from "../../../public/Document360.png";
 import googleSitesIcon from "../../../public/GoogleSites.png";
 import zendeskIcon from "../../../public/Zendesk.svg";
+import zammadIcon from "../../../public/Zammad.png";
 import dropboxIcon from "../../../public/Dropbox.png";
 import egnyteIcon from "../../../public/Egnyte.png";
 import slackIcon from "../../../public/Slack.png";
@@ -1416,6 +1417,13 @@ export const ZendeskIcon = ({
       src={zendeskIcon}
     />
   </div>
+);
+
+export const ZammadIcon = ({
+  size = 16,
+  className = defaultTailwindCSS,
+}: IconProps) => (
+  <LogoIcon size={size} className={className} src={zammadIcon} />
 );
 
 export const DropboxIcon = ({

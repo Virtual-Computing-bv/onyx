@@ -221,6 +221,11 @@ export interface FreshdeskCredentialJson {
   freshdesk_api_key: string;
 }
 
+export interface ZammadCredentialJson {
+  zammad_url: string;
+  zammad_api_key: string;
+}
+
 export interface FirefliesCredentialJson {
   fireflies_api_key: string;
 }
@@ -360,6 +365,10 @@ export const credentialTemplates: Record<ValidSources, any> = {
     freshdesk_password: "",
     freshdesk_api_key: "",
   } as FreshdeskCredentialJson,
+  zammad: {
+    zammad_url: "",
+    zammad_api_key: "",
+  } as ZammadCredentialJson,
   fireflies: {
     fireflies_api_key: "",
   } as FirefliesCredentialJson,
@@ -521,6 +530,10 @@ export const credentialDisplayNames: Record<string, string> = {
   freshdesk_domain: "Freshdesk Domain",
   freshdesk_password: "Freshdesk Password",
   freshdesk_api_key: "Freshdesk API Key",
+
+  // Zammad
+  zammad_url: "Zammad URL",
+  zammad_api_key: "Zammad API Key",
 
   // Fireflies
   fireflies_api_key: "Fireflies API Key",
